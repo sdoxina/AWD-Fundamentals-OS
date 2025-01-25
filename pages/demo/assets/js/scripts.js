@@ -1,34 +1,31 @@
 // Input/Output and Conditionals
-function EligibilityToDrink() {
-    const age = document.getElementById('age').value;
-    const name = document.getElementById('name').value;
-  
-    // Clear previous output
-    const output = document.getElementById('output');
-    output.innerHTML = ''; 
-  
-    if (!name || !age) {
-      const errorP = document.createElement('p');
-      errorP.textContent = 'Please enter both name and age.';
-      errorP.style.color = 'red'; // Optional styling for error message
-      output.appendChild(errorP);
-      return;
-    }
-  
-    if (age >= 18) {
-      const eligibleP = document.createElement('p');
-      eligibleP.textContent = `You are eligible to drink, ${name}!`;
-      eligibleP.style.color = 'green'; // Optional styling for success message
-      output.appendChild(eligibleP);
-    } else {
-      const notEligibleP = document.createElement('p');
-      notEligibleP.textContent = `You are not eligible to drink, ${name}.`;
-      notEligibleP.style.color = 'red'; // Optional styling for failure message
-      output.appendChild(notEligibleP);
-    }
+function recommendActivity() {
+  const weather = document.getElementById('weather').value; // Get selected weather
+  const activityOutput = document.getElementById('activity-output');
+  activityOutput.innerHTML = ''; // Clear previous output
+
+  const activity = document.createElement('p');
+
+  // Conditional logic for recommendations
+  if (weather == 'sunny') {
+    activity.textContent = "It's a sunny day! Perfect for a walk in the park or a beach outing.";
+    activity.style.color = 'orange';
+  } else if (weather == 'rainy') {
+    activity.textContent = "It's rainy! How about a cozy movie marathon at home with snacks?";
+    activity.style.color = 'blue';
+  } else if (weather == 'cold') {
+    activity.textContent = "Brr, it's cold! Time for a hot chocolate and a good book by the fireplace.";
+    activity.style.color = 'purple';
+  } else {
+    activity.textContent = "Please select a valid weather option to get an activity recommendation.";
+    activity.style.color = 'red';
+  }
+
+  activityOutput.appendChild(activity);
 }
 
-// Number Guessing Game with Input Field
+
+// Number Guessing Game
 const randomNumber = Math.floor(Math.random() * 10) + 1;
 function checkGuess() {
     const guessedNumber = document.getElementById('guess').value;

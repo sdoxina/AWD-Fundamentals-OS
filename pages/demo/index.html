@@ -41,38 +41,50 @@
     </div>
 </nav>
 
-<section class="stores">
+<section class="demo">
   <div class="container">
     <h1>JavaScript Fundamentals Demonstration</h1>
-    <div id="output"></div>
+    <img src="./assets/img/dividersAc.png" alt="divider" class="divider">
+    <table class="demo-table">
+      <tr>
+          <td>
+          <h1>What's the Weather Like?</h1>
+          <h6>"By the window of their little cottage, the girl and her friend sip tea, gazing at the weather beyond. Each kind of day brings its own magic: sunny adventures, rainy-day wonder, or chilly coziness. Can you help them pick today's activity?"</h6>
+          <label for="weather">Choose the weather:</label>
+          <select id="weather">
+            <option value="">Select</option>
+            <option value="sunny">Sunny</option>
+            <option value="rainy">Rainy</option>
+            <option value="cold">Cold</option>
+          </select>
+          <br>
+          <button onclick="recommendActivity()" class="activity-btn">Get Recommendation</button>
 
-    <h2>Check Eligibility</h2>
-    <label for="name">Name:</label>
-    <input type="text" id="name">
-    <br>
-    <label for="age">Age:</label>
-    <input type="number" id="age">
-    <br>
-    <button onclick="EligibilityToDrink()">Check</button>
-
-    <h2>Number Loop</h2>
-    <button onclick="DisplayNumbers()">Display Numbers 1-10</button>
-
-    <div id="number-list"></div>
+          <h5>Recommended Activity:</h5>
+          
+          <div id="activity-output">
+          <div class="output"></div>
+        </div>
+          </td>
+          <td class="demo-td-img"><img src="./assets/img/weather.jpg" class="demo-img"></td>
+      </tr>
+  </table>
 
     <img src="./assets/img/dividersAc.png" alt="divider" class="divider">
-    <table>
+    <table class="demo-table">
         <tr>
-            <td<img src="./assets/img/guessingGame.jpg"></th>
+            <td class="demo-td-img"><img src="./assets/img/guessingGame.jpg" class="demo-img"></td>
             <td>
-                <h1>Guess the Number</h1>
+            <h1>Guess the Number</h1>
+            <h6>Inside a snug little cabin, nestled deep in the woods, four critters—Fox, Duck, Bear, and Cat—huddled over a game board. The fox, quick and clever, has been having quite the winning streak—or has it? The outcome isn’t clear just yet. Can you guess how many times the fox has won?</h6>
             <label for="guess">Enter your guess (1-10):</label>
             <input type="number" id="guess">
             <br>
-            <button onclick="checkGuess()">Submit Guess</button>
-
-            <!-- New div to display the output for the guessing game -->
+            <button onclick="checkGuess()" class="guess-btn">Submit Guess</button>
+            <h5>Result:</h5>
+            <div class="guess-output-container">
             <div id="guess-output"></div>
+            </div>
             </td>
         </tr>
     </table>
@@ -91,7 +103,7 @@
         <div class="row">
           <div class="col-6 col-md-2 mb-3">
             <ul class="footer flex-column list-unstyled">
-              <li class="footer-item mb-2"><a href="../../index.html#about" class="footer-link p-0 text-body-secondary">About Iraya</a></li>
+              <li class="footer-item mb-2"><a href="../../index.html#about" class="footer-link p-0 text-body-secondary">About</a></li>
               <li class="footer-item mb-2"><a href="index.html" class="footer-link p-0 text-body-secondary">Demo</a></li>
             </ul>
           </div>
