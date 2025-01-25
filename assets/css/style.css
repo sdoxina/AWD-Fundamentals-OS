@@ -276,14 +276,6 @@
   background-color: transparent;
 }
 
-.store-table th, .store-table td {
-  padding: 12px 15px;
-  text-align: left;
-  border-block-start: none;
-  border-block-end: 1px solid #e27396;
-  font-weight: 500;
-}
-
 .table-responsive {
   overflow-x: auto;
 }
