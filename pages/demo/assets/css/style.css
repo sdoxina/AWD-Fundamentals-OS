@@ -457,4 +457,6 @@
   padding: 8px 12px;
   font-size: 14px;
   transition: 125ms background, 125ms color, 125ms box-shadow;
+  flex-wrap: wrap;
+  gap: 10px;
 }
