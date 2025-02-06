@@ -5,10 +5,8 @@
 <br />
 <div align="center">
   <a href="https://github.com/sdoxina/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/irayaLogo.png" alt="Iraya" width="150" height="150">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">AWD-Fundamentals-OS</h3>
 </div>
 <!-- TODO: Make a short description -->
@@ -18,9 +16,7 @@
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=sdoxina/WD-Fundamentals)
+![](https://visit-counter.vercel.app/counter.png?page=sdoxina/AWD-Fundamentals-OS)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
 
@@ -29,7 +25,6 @@
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -81,10 +76,10 @@ This site showcases the core principles of JavaScript through simple, interactiv
 Explore the interactive examples:
 
 - What's the Weather Like?
---Help two friends decide their perfect activity based on the weather outside.
+  -Help two friends decide their perfect activity based on the weather outside.
 
 - Guess the Number
---Join four woodland critters in their guessing game.
+  -Join four woodland critters in their guessing game.
 
 ## Resources
 
