@@ -75,9 +75,11 @@ This site showcases the core principles of JavaScript through simple, interactiv
 Explore the interactive examples:
 
 - What's the Weather Like?
+
   ▪ Help two friends decide their perfect activity based on the weather outside.
 
 - Guess the Number
+
   ▪ Join four woodland critters in their guessing game.
 
 ## Resources
