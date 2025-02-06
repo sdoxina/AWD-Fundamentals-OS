@@ -76,14 +76,16 @@ This site showcases the core principles of JavaScript through simple, interactiv
 Explore the interactive examples:
 
 - What's the Weather Like?
-* Help two friends decide their perfect activity based on the weather outside.
+<ul><li style="list-style-type: square;">Help two friends decide their perfect activity based on the weather outside.</li></ul>
 
 - Guess the Number
-* Join four woodland critters in their guessing game.
+<ul><li style="list-style-type: square;">Join four woodland critters in their guessing game.</li></ul>
 
 ## Resources
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Background illustration | Illustration used in the landing page background. | https://pbs.twimg.com/media/FQn0ZJoaMAUpQNb?format=jpg&name=large |
+| What's the Weather Like? Illustration | Illustration used in the What's the Weather Like? part in demo page. | https://pbs.twimg.com/media/GQRy74nbIAARNrT?format=jpg&name=large |
+| Guess the Number Illustration | Illustration used in the Guess the Number part in demo page. | https://pbs.twimg.com/media/Fl22VueaEAAKAex?format=jpg&name=large |
