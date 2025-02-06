@@ -9,7 +9,7 @@
     <img src="./assets/img/irayaLogo.png" alt="Iraya" width="150" height="150">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">WD-Fundamentals</h3>
+  <h3 align="center">AWD-Fundamentals-OS</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
