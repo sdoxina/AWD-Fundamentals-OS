@@ -62,7 +62,6 @@ This site showcases the core principles of JavaScript through simple, interactiv
 - Showcases fundamental concepts: variables, input/output, conditionals, and loops
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
@@ -76,10 +75,10 @@ This site showcases the core principles of JavaScript through simple, interactiv
 Explore the interactive examples:
 
 - What's the Weather Like?
-<ul><li style="list-style-type: square;">Help two friends decide their perfect activity based on the weather outside.</li></ul>
+  ▪ Help two friends decide their perfect activity based on the weather outside.
 
 - Guess the Number
-<ul><li style="list-style-type: square;">Join four woodland critters in their guessing game.</li></ul>
+  ▪ Join four woodland critters in their guessing game.
 
 ## Resources
 
