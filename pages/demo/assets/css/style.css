@@ -420,6 +420,11 @@
   align-items: center;
 }
 
+.guess-btn:hover, .activity-btn:hover {
+  background-color: #e27396;
+  color: #fff;
+}
+
 #guess, #weather {
   margin-top: 5%;
   width: 66%;
